@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../../../../../../main.dart';
-
 class AvatarImageView extends StatefulWidget {
   AvatarImageView({super.key, required this.profileAvatarImage});
 
@@ -48,7 +46,8 @@ class _AvatarImageViewState extends State<AvatarImageView> {
 main() async {
   return runApp(MaterialApp(
     home: AvatarImageView(
-      profileAvatarImage: "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
+      profileAvatarImage:
+          "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
     ),
   ));
 }

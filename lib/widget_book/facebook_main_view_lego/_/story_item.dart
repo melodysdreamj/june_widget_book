@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:styled_widget/styled_widget.dart';
 
-import '../../../../../../../../../../../main.dart';
-
 class StoryItemView extends StatefulWidget {
   StoryItemView({
     super.key,
@@ -52,28 +50,28 @@ class _StoryItemViewState extends State<StoryItemView> {
               children: <Widget>[
                 widget.first
                     ? Container(
-                  width: 40,
-                  height: 40,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.white,
-                    border: Border.all(color: Colors.white, width: 2),
-                  ),
-                  child: Icon(
-                    Icons.add,
-                    color: Color(0xFF1777F2),
-                  ),
-                )
+                        width: 40,
+                        height: 40,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.white,
+                          border: Border.all(color: Colors.white, width: 2),
+                        ),
+                        child: Icon(
+                          Icons.add,
+                          color: Color(0xFF1777F2),
+                        ),
+                      )
                     : Container(
-                  width: 40,
-                  height: 40,
-                  decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(color: Colors.white, width: 2),
-                      image: DecorationImage(
-                          image: NetworkImage(widget.userImage),
-                          fit: BoxFit.cover)),
-                ),
+                        width: 40,
+                        height: 40,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.white, width: 2),
+                            image: DecorationImage(
+                                image: NetworkImage(widget.userImage),
+                                fit: BoxFit.cover)),
+                      ),
                 Text(
                   widget.userName,
                   style: TextStyle(color: Colors.white),
@@ -91,9 +89,9 @@ main() async {
   return runApp(MaterialApp(
     home: StoryItemView(
       StoryImage:
-      "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
+          "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
       userImage:
-      "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
+          "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
       userName: "User Name",
     ).center(),
   ));
