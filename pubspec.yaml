@@ -9,14 +9,17 @@ environment:
   sdk: '>=3.3.1 <4.0.0'
 
 dependencies:
+  auto_size_text:
   bot_toast:
   device_preview_minus: ^1.0.6
   flutter:
     sdk: flutter
+  flutter_color:
   flutter_screenutil:
   flutter_svg:
   flutter_zoom_drawer:
   gap:
+  infinite_listview:
   june:
   june_flow_util:
   keyboard_attachable:
@@ -32,9 +35,11 @@ dev_dependencies:
   hello_world_page_lego:
   screenutil_lego:
   bot_toast_lego:
+  toss_intro_page_lego:
 
 flutter:
   uses-material-design: true
   assets:
+    - assets/lego/toss_intro_page_lego/
     - assets/pubdev.svg
     - assets/github.svg
