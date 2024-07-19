@@ -38,10 +38,12 @@ dev_dependencies:
   toss_intro_page_lego:
   insta_personal_page_lego:
   widget_binding_lego:
+  netflix_main_view_lego:
 
 flutter:
   uses-material-design: true
   assets:
+    - assets/lego/netflix_main_view_lego/
     - assets/lego/insta_personal_page_lego/
     - assets/lego/toss_intro_page_lego/
     - assets/pubdev.svg
