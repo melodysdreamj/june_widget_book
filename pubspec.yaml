@@ -36,10 +36,13 @@ dev_dependencies:
   screenutil_lego:
   bot_toast_lego:
   toss_intro_page_lego:
+  insta_personal_page_lego:
+  widget_binding_lego:
 
 flutter:
   uses-material-design: true
   assets:
+    - assets/lego/insta_personal_page_lego/
     - assets/lego/toss_intro_page_lego/
     - assets/pubdev.svg
     - assets/github.svg
