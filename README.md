@@ -5,4 +5,5 @@
 ```bash
 dart pub global activate lego_cli 
 lego add [lego widget name]
+flutter build web
 ```
