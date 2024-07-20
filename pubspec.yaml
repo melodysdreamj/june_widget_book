@@ -40,10 +40,12 @@ dev_dependencies:
   widget_binding_lego:
   netflix_main_view_lego:
   facebook_main_view_lego:
+  login_view3_lego:
 
 flutter:
   uses-material-design: true
   assets:
+    - assets/lego/login_view3_lego/
     - assets/lego/facebook_main_view_lego/
     - assets/lego/netflix_main_view_lego/
     - assets/lego/insta_personal_page_lego/
