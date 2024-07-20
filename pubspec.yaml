@@ -41,10 +41,12 @@ dev_dependencies:
   netflix_main_view_lego:
   facebook_main_view_lego:
   login_view3_lego:
+  google_search_result_page_lego:
 
 flutter:
   uses-material-design: true
   assets:
+    - assets/lego/google_search_result_page_lego/
     - assets/lego/login_view3_lego/
     - assets/lego/facebook_main_view_lego/
     - assets/lego/netflix_main_view_lego/
