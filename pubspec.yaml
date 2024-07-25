@@ -20,6 +20,7 @@ dependencies:
   flutter_zoom_drawer:
   gap:
   infinite_listview:
+  intl:
   june:
   june_flow_util:
   keyboard_attachable:
@@ -42,10 +43,12 @@ dev_dependencies:
   facebook_main_view_lego:
   login_view3_lego:
   google_search_result_page_lego:
+  weather_page_lego:
 
 flutter:
   uses-material-design: true
   assets:
+    - assets/lego/weather_page_lego/
     - assets/lego/google_search_result_page_lego/
     - assets/lego/login_view3_lego/
     - assets/lego/facebook_main_view_lego/

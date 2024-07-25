@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tuple/tuple.dart';
 
+import '../../widget_book/weather_page_lego/_/_.dart' as weather_page_lego;
 import '../../widget_book/google_search_result_page_lego/_/_.dart' as google_search_result_page_lego;
 import '../../widget_book/login_view3_lego/_/_.dart' as login_view3_lego;
 import '../../widget_book/facebook_main_view_lego/_/_.dart' as facebook_main_view_lego;
@@ -10,6 +11,7 @@ import '../../widget_book/toss_intro_page_lego/_/_.dart' as toss_intro_page_lego
 import '../../widget_book/hello_world_page_lego/_/_.dart' as hello_world_page_lego;
 
 final List<Tuple2<String, Widget>> widgets = [
+  Tuple2('weather_page_lego', weather_page_lego.NewView()),
   Tuple2('google_search_result_page_lego', google_search_result_page_lego.NewView()),
   Tuple2('login_view3_lego', login_view3_lego.NewView()),
   Tuple2('facebook_main_view_lego', facebook_main_view_lego.NewView()),
