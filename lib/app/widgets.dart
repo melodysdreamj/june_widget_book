@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tuple/tuple.dart';
 
+import '../../widget_book/calculator_neumorphism_ui_lego/_/_.dart' as calculator_neumorphism_ui_lego;
+import '../../widget_book/basic_drawer_lego/_/_.dart' as basic_drawer_lego;
+import '../../widget_book/basic_zoom_drawer_lego/_/_.dart' as basic_zoom_drawer_lego;
+import '../../widget_book/chatgpt_drawer_view_lego/_/_.dart' as chatgpt_drawer_view_lego;
 import '../../widget_book/weather_page_lego/_/_.dart' as weather_page_lego;
 import '../../widget_book/google_search_result_page_lego/_/_.dart' as google_search_result_page_lego;
 import '../../widget_book/login_view3_lego/_/_.dart' as login_view3_lego;
@@ -11,6 +15,10 @@ import '../../widget_book/toss_intro_page_lego/_/_.dart' as toss_intro_page_lego
 import '../../widget_book/hello_world_page_lego/_/_.dart' as hello_world_page_lego;
 
 final List<Tuple2<String, Widget>> widgets = [
+  Tuple2('calculator_neumorphism_ui_lego', calculator_neumorphism_ui_lego.NewView()),
+  Tuple2('basic_drawer_lego', basic_drawer_lego.NewView()),
+  Tuple2('basic_zoom_drawer_lego', basic_zoom_drawer_lego.NewView()),
+  Tuple2('chatgpt_drawer_view_lego', chatgpt_drawer_view_lego.NewView()),
   Tuple2('weather_page_lego', weather_page_lego.NewView()),
   Tuple2('google_search_result_page_lego', google_search_result_page_lego.NewView()),
   Tuple2('login_view3_lego', login_view3_lego.NewView()),

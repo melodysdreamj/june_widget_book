@@ -44,6 +44,10 @@ dev_dependencies:
   login_view3_lego:
   google_search_result_page_lego:
   weather_page_lego:
+  basic_drawer_lego:
+  chatgpt_drawer_view_lego:
+  basic_zoom_drawer_lego:
+  calculator_neumorphism_ui_lego:
 
 flutter:
   uses-material-design: true
