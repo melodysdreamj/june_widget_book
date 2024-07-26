@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tuple/tuple.dart';
 
+import '../../widget_book/calculator_ui_lego/_/_.dart' as calculator_ui_lego;
+import '../../widget_book/calculator_page_lego/_/_.dart' as calculator_page_lego;
 import '../../widget_book/calculator_neumorphism_ui_lego/_/_.dart' as calculator_neumorphism_ui_lego;
 import '../../widget_book/basic_drawer_lego/_/_.dart' as basic_drawer_lego;
 import '../../widget_book/basic_zoom_drawer_lego/_/_.dart' as basic_zoom_drawer_lego;
@@ -15,6 +17,8 @@ import '../../widget_book/toss_intro_page_lego/_/_.dart' as toss_intro_page_lego
 import '../../widget_book/hello_world_page_lego/_/_.dart' as hello_world_page_lego;
 
 final List<Tuple2<String, Widget>> widgets = [
+  Tuple2('calculator_ui_lego', calculator_ui_lego.NewView()),
+  Tuple2('calculator_page_lego', calculator_page_lego.NewView()),
   Tuple2('calculator_neumorphism_ui_lego', calculator_neumorphism_ui_lego.NewView()),
   Tuple2('basic_drawer_lego', basic_drawer_lego.NewView()),
   Tuple2('basic_zoom_drawer_lego', basic_zoom_drawer_lego.NewView()),

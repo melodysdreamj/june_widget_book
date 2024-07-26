@@ -24,6 +24,7 @@ dependencies:
   june:
   june_flow_util:
   keyboard_attachable:
+  math_expressions:
   modal_bottom_sheet:
   styled_widget:
   tuple: ^2.0.2
@@ -48,6 +49,8 @@ dev_dependencies:
   chatgpt_drawer_view_lego:
   basic_zoom_drawer_lego:
   calculator_neumorphism_ui_lego:
+  calculator_ui_lego:
+  calculator_page_lego:
 
 flutter:
   uses-material-design: true
