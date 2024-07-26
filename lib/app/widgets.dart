@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tuple/tuple.dart';
 
+import '../../widget_book/basic_snackbar_lego.snackbar/usage.dart' as basic_snackbar_lego_snackbar;
 import '../../widget_book/calculator_ui_lego/_/_.dart' as calculator_ui_lego;
 import '../../widget_book/calculator_page_lego/_/_.dart' as calculator_page_lego;
 import '../../widget_book/calculator_neumorphism_ui_lego/_/_.dart' as calculator_neumorphism_ui_lego;
@@ -20,9 +21,6 @@ final List<Tuple2<String, Widget>> widgets = [
   Tuple2('calculator_ui_lego', calculator_ui_lego.NewView()),
   Tuple2('calculator_page_lego', calculator_page_lego.NewView()),
   Tuple2('calculator_neumorphism_ui_lego', calculator_neumorphism_ui_lego.NewView()),
-  Tuple2('basic_drawer_lego', basic_drawer_lego.NewView()),
-  Tuple2('basic_zoom_drawer_lego', basic_zoom_drawer_lego.NewView()),
-  Tuple2('chatgpt_drawer_view_lego', chatgpt_drawer_view_lego.NewView()),
   Tuple2('weather_page_lego', weather_page_lego.NewView()),
   Tuple2('google_search_result_page_lego', google_search_result_page_lego.NewView()),
   Tuple2('login_view3_lego', login_view3_lego.NewView()),
@@ -30,5 +28,9 @@ final List<Tuple2<String, Widget>> widgets = [
   Tuple2('netflix_main_view_lego', netflix_main_view_lego.NewView()),
   Tuple2('insta_personal_page_lego', insta_personal_page_lego.NewView()),
   Tuple2('toss_intro_page_lego', toss_intro_page_lego.NewView()),
-  Tuple2('hello_world_page_lego', hello_world_page_lego.NewView())
+  Tuple2('hello_world_page_lego', hello_world_page_lego.NewView()),
+  Tuple2('basic_drawer_lego', basic_drawer_lego.NewView()),
+  Tuple2('basic_zoom_drawer_lego', basic_zoom_drawer_lego.NewView()),
+  Tuple2('chatgpt_drawer_view_lego', chatgpt_drawer_view_lego.NewView()),
+  Tuple2('basic_snackbar_lego.snackbar', basic_snackbar_lego_snackbar.Usage()),
 ];

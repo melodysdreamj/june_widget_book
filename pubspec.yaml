@@ -51,6 +51,7 @@ dev_dependencies:
   calculator_neumorphism_ui_lego:
   calculator_ui_lego:
   calculator_page_lego:
+  basic_snackbar_lego:
 
 flutter:
   uses-material-design: true
