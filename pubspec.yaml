@@ -55,6 +55,7 @@ dev_dependencies:
   basic_snackbar_lego:
   world_time_lego:
   select_cities_bottom_sheet_lego:
+  reorderable_listview_demo_lego:
 
 flutter:
   uses-material-design: true
