@@ -27,6 +27,7 @@ dependencies:
   math_expressions:
   modal_bottom_sheet:
   styled_widget:
+  super_cupertino_navigation_bar:
   tuple: ^2.0.2
   url_launcher: ^6.3.0
 
@@ -52,6 +53,8 @@ dev_dependencies:
   calculator_ui_lego:
   calculator_page_lego:
   basic_snackbar_lego:
+  world_time_lego:
+  select_cities_bottom_sheet_lego:
 
 flutter:
   uses-material-design: true
