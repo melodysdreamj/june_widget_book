@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:june_flow_util/june_flow_util.dart';
+import 'package:styled_widget/styled_widget.dart';
 
-import '../../../../../../../../../../../main.dart';
 import 'item.dart';
 
 class NewView extends StatefulWidget {
@@ -30,7 +31,7 @@ class _NewViewState extends State<NewView> {
               websiteUrl: "https://www.nytimes.com",
               title: "Latest News in Global Politics",
               description:
-                  "Stay updated with the latest developments in global politics, featuring in-depth analysis and exclusive reports.",
+              "Stay updated with the latest developments in global politics, featuring in-depth analysis and exclusive reports.",
               date: DateTime(2024, 5, 1),
             ),
             ItemView(
@@ -40,7 +41,7 @@ class _NewViewState extends State<NewView> {
               websiteUrl: "https://github.com",
               title: "Explore Open Source Projects",
               description:
-                  "Discover and contribute to thousands of open source software projects, ranging from small plugins to major frameworks.",
+              "Discover and contribute to thousands of open source software projects, ranging from small plugins to major frameworks.",
               date: DateTime(2024, 5, 2),
             ),
             ItemView(
@@ -59,7 +60,7 @@ class _NewViewState extends State<NewView> {
               websiteUrl: "https://www.wikipedia.org",
               title: "Learn Something New",
               description:
-                  "Dive into detailed articles on virtually any topic you can think of, from history to new technology.",
+              "Dive into detailed articles on virtually any topic you can think of, from history to new technology.",
               date: DateTime(2024, 5, 3),
             ),
             ItemView(
@@ -69,7 +70,7 @@ class _NewViewState extends State<NewView> {
               websiteUrl: "https://www.travelandleisure.com",
               title: "Best Travel Destinations of 2024",
               description:
-                  "Plan your next vacation with our list of the best travel destinations for 2024, including tips and recommendations.",
+              "Plan your next vacation with our list of the best travel destinations for 2024, including tips and recommendations.",
               date: DateTime(2024, 5, 4),
             ),
             ItemView(
@@ -79,7 +80,7 @@ class _NewViewState extends State<NewView> {
               websiteUrl: "https://www.epicurious.com",
               title: "Delicious Recipes for Home Chefs",
               description:
-                  "Find the perfect recipe for any occasion with thousands of options from world-renowned chefs.",
+              "Find the perfect recipe for any occasion with thousands of options from world-renowned chefs.",
               date: DateTime(2024, 5, 5),
             ),
           ],
@@ -91,5 +92,7 @@ class _NewViewState extends State<NewView> {
 }
 
 main() async {
-  return buildApp(home: NewView());
+  return runApp(MaterialApp(
+    home: NewView(),
+  ));
 }

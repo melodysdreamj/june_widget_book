@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../../../../../../../../../../../main.dart';
+import 'package:gap/gap.dart';
+import 'package:styled_widget/styled_widget.dart';
 
 class ItemView extends StatefulWidget {
   ItemView({
@@ -107,13 +107,15 @@ class _ItemViewState extends State<ItemView> {
 }
 
 main() async {
-  return buildApp(home: ItemView(
-    iconUrl:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzheY-vg34-kp6oq-jMdEyFHpBNPt7bqsaaoVGWJYHhjrKz_b3UIkNKYDAg&s",
-    websiteName: "Google",
-    websiteUrl: "https://www.google.com",
-    title: "This is the official homepage of Google.",
-    description: "Google website description",
-    date: DateTime(2024, 5, 1),
+  return runApp(MaterialApp(
+    home: ItemView(
+      iconUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzheY-vg34-kp6oq-jMdEyFHpBNPt7bqsaaoVGWJYHhjrKz_b3UIkNKYDAg&s",
+      websiteName: "Google",
+      websiteUrl: "https://www.google.com",
+      title: "This is the official homepage of Google.",
+      description: "Google website description",
+      date: DateTime(2024, 5, 1),
+    ),
   ));
 }

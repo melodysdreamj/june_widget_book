@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-
-import '../../../main.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:gap/gap.dart';
+import 'package:styled_widget/styled_widget.dart';
 
 class ItemView extends StatefulWidget {
   const ItemView({super.key});
