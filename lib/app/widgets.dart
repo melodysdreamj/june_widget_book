@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tuple/tuple.dart';
 
+import '../../widget_book/listview_delete_animation_demo_lego/_/_.dart' as listview_delete_animation_demo_lego;
 import '../../widget_book/world_time_lego/_/_.dart' as world_time_lego;
 import '../../widget_book/reorderable_listview_demo_lego/_/_.dart' as reorderable_listview_demo_lego;
 import '../../widget_book/select_cities_bottom_sheet_lego.bottom_sheet/usage.dart' as select_cities_bottom_sheet_lego_bottom_sheet;
@@ -21,6 +22,7 @@ import '../../widget_book/toss_intro_page_lego/_/_.dart' as toss_intro_page_lego
 import '../../widget_book/hello_world_page_lego/_/_.dart' as hello_world_page_lego;
 
 final List<Tuple2<String, Widget>> widgets = [
+  Tuple2('listview_delete_animation_demo_lego', listview_delete_animation_demo_lego.NewView()),
   Tuple2('world_time_lego', world_time_lego.NewView()),
   Tuple2('calculator_ui_lego', calculator_ui_lego.NewView()),
   Tuple2('calculator_page_lego', calculator_page_lego.NewView()),
