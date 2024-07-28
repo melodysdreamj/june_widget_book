@@ -36,5 +36,5 @@ final List<Tuple2<String, Widget>> widgets = [
   Tuple2('chatgpt_drawer_view_lego', chatgpt_drawer_view_lego.NewView()),
   Tuple2('basic_snackbar_lego.snackbar', basic_snackbar_lego_snackbar.Usage()),
   Tuple2('reorderable_listview_demo_lego', reorderable_listview_demo_lego.NewView()),
-  Tuple2('select_cities_bottom_sheet_lego.bottom_sheet', select_cities_bottom_sheet_lego_bottom_sheet.Usage()),
+  Tuple2('select_cities_bottom_sheet_lego.bottom_sheet', select_cities_bottom_sheet_lego_bottom_sheet.Usage())
 ];
