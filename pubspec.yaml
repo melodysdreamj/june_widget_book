@@ -12,9 +12,11 @@ dependencies:
   auto_size_text:
   bot_toast:
   device_preview_minus: ^1.0.6
+  dots_indicator:
   flutter:
     sdk: flutter
   flutter_color:
+  flutter_neumorphic_plus:
   flutter_screenutil:
   flutter_svg:
   flutter_zoom_drawer:
@@ -38,18 +40,12 @@ dev_dependencies:
   hello_world_page_lego:
   screenutil_lego:
   bot_toast_lego:
-  toss_intro_page_lego:
   insta_personal_page_lego:
   widget_binding_lego:
-  netflix_main_view_lego:
-  facebook_main_view_lego:
   login_view3_lego:
-  google_search_result_page_lego:
-  weather_page_lego:
   basic_drawer_lego:
   chatgpt_drawer_view_lego:
   basic_zoom_drawer_lego:
-  calculator_neumorphism_ui_lego:
   calculator_ui_lego:
   calculator_page_lego:
   basic_snackbar_lego:
@@ -57,10 +53,50 @@ dev_dependencies:
   reorderable_listview_demo_lego:
   world_time_lego:
   listview_delete_animation_demo_lego:
+  facebook_main_view_lego:
+  google_search_result_page_lego:
+  netflix_main_view_lego:
+  netflix_intro_page_lego:
+  kakao_chatroom_list_lego:
+  telegram_main_lego:
+  youtube_main_view_lego:
+  facebook_messager_main_view_lego:
+  google_drive_main_view_lego:
+  money_transfer_view_lego:
+  spotify_main_view_lego:
+  chat_app_view_detail_lego:
+  chat_app_view_lego:
+  calculator_neumorphism_ui_lego:
+  weather_page_lego:
+  music_list_page_lego:
+  music_player_page_lego:
+  toss_intro_page_lego:
+  gmail_main_view_lego:
+  ios_notes_view_lego:
+  profile_view_2_lego:
+  ios_reminder_view_lego:
+  whatsapp_main_view_lego:
+  login_and_register_page_lego:
+  request_ad_permission_page_lego:
+  request_notification_permission_page_lego:
+  insta_style_feed_lego:
 
 flutter:
   uses-material-design: true
   assets:
+    - assets/lego/insta_style_feed_lego/
+    - assets/lego/request_notification_permission_page_lego/
+    - assets/lego/request_ad_permission_page_lego/
+    - assets/lego/login_and_register_page_lego/
+    - assets/lego/whatsapp_main_view_lego/
+    - assets/lego/profile_view_2_lego/
+    - assets/lego/music_player_page_lego/
+    - assets/lego/music_list_page_lego/
+    - assets/lego/spotify_main_view_lego/
+    - assets/lego/money_transfer_view_lego/
+    - assets/lego/google_drive_main_view_lego/
+    - assets/lego/youtube_main_view_lego/
+    - assets/lego/netflix_intro_page_lego/
     - assets/lego/weather_page_lego/
     - assets/lego/google_search_result_page_lego/
     - assets/lego/login_view3_lego/

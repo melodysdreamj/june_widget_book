@@ -1811,23 +1811,44 @@ bot_toast_lego
 calculator_neumorphism_ui_lego
 calculator_page_lego
 calculator_ui_lego
+chat_app_view_detail_lego
+chat_app_view_lego
 chatgpt_drawer_view_lego
 facebook_main_view_lego
+facebook_messager_main_view_lego
+gmail_main_view_lego
+google_drive_main_view_lego
 google_search_result_page_lego
 hello_world_page_lego
 insta_personal_page_lego
+insta_style_feed_lego
+ios_notes_view_lego
+ios_reminder_view_lego
 june
 june_flow_util
+kakao_chatroom_list_lego
 listview_delete_animation_demo_lego
+login_and_register_page_lego
 login_view3_lego
+money_transfer_view_lego
+music_list_page_lego
+music_player_page_lego
+netflix_intro_page_lego
 netflix_main_view_lego
+profile_view_2_lego
 reorderable_listview_demo_lego
+request_ad_permission_page_lego
+request_notification_permission_page_lego
 screenutil_lego
 select_cities_bottom_sheet_lego
+spotify_main_view_lego
+telegram_main_lego
 toss_intro_page_lego
 weather_page_lego
+whatsapp_main_view_lego
 widget_binding_lego
 world_time_lego
+youtube_main_view_lego
 
 MIT License
 
@@ -5604,6 +5625,30 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 --------------------------------------------------------------------------------
+dots_indicator
+
+MIT License
+
+Copyright (c) 2019 Jean-Charles Moussé
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+--------------------------------------------------------------------------------
 double-conversion
 icu
 
@@ -7462,6 +7507,31 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
 ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+flutter_neumorphic_plus
+
+MIT License
+
+Copyright (c) 2023 GSMLG
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 --------------------------------------------------------------------------------
 flutter_screenutil
