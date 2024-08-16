@@ -13,7 +13,7 @@ class _NewViewState extends State<NewView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.onPrimary,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

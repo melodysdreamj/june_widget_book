@@ -209,7 +209,8 @@ class _HomeViewState extends State<HomeView> {
       builder: (context) => Scaffold(
         body: widgets[_selectedIndex].item2.center(),
       ),
-      backgroundColor: Colors.grey.withOpacity(0.1),
+      // backgroundColor: Colors.grey.withOpacity(0.1),
+      backgroundColor: Colors.white,
       isToolbarVisible: false,
     );
   }

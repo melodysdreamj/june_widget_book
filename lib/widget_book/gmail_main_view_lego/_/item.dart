@@ -39,7 +39,7 @@ class _ItemViewState extends State<ItemView> {
         Container(
           padding: EdgeInsets.only(left: 10, right: 10, top: 15),
           child: Row(
-            children: <Widget>[
+            children: <Widget>[   
               widget.useravatar != null
                   ? Container(
                 padding: EdgeInsets.symmetric(horizontal: 8.0),
